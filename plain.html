@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Fleece Hoodie - Fashion Hub</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f9f9f9;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: #222;
+            color: #fff;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .logo span {
+            color: #f39c12;
+        }
+
+        .navbar a {
+            margin: 0 15px;
+            color: #fff;
+            transition: color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #f39c12;
+        }
+
+        /* Buy Now Section */
+        .buy-now-section {
+            padding: 50px 20px;
+        }
+
+        .product-summary {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .product-summary img {
+            max-width: 300px;
+            border-radius: 8px;
+        }
+
+        .product-details {
+            flex: 1;
+            margin-left: 20px;
+        }
+
+        .product-details h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .product-details p {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .product-details span {
+            font-size: 22px;
+            color: #f39c12;
+            font-weight: bold;
+        }
+
+        /* Order Form */
+        .order-form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .order-form h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            background-color: #f39c12;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #d35400;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Fashion<span>Hub</span></div>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#shop">Shop</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="buy-now-section container">
+        <div class="product-summary">
+            <img src="https://i.ibb.co/RPVJCKV/download-6.jpg" alt="Fleece Hoodie">
+            <div class="product-details">
+                <h2>Plain T-Shirt</h2>
+                <p>Keep it simple and stylish with this classic plain T-shirt. Made from high-quality cotton, it's a perfect addition to your casual wardrobe.</p>
+                <p>Price: <span>1499/-</span></p>
+            </div>
+        </div>
+
+        <div class="order-form">
+            <h2>Order Now</h2>
+            <form action="orderplain.html" method="GET">
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Shipping Address:</label>
+                    <input type="text" id="address" name="address" placeholder="Enter your address" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                </div>
+                <div class="form-group">
+                    <label for="payment">Payment Method:</label>
+                    <select id="payment" name="payment" required>
+                        <option value="credit-card">Credit Card</option>
+                        <option value="debit-card">Debit Card</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="cod">Cash on Delivery</option>
+                    </select>
+                </div>
+                <button class="btn">Place Order</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 FashionHub. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

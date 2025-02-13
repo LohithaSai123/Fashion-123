@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Now - Fashion Collection</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f9f9f9;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: #222;
+            color: #fff;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .logo span {
+            color: #f39c12;
+        }
+
+        .navbar a {
+            margin: 0 15px;
+            color: #fff;
+            transition: color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #f39c12;
+        }
+
+        /* Shop Section */
+        .shop-section {
+            padding: 50px 0;
+        }
+
+        .shop-section h2 {
+            font-size: 36px;
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .category {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .category .item {
+            background: #fff;
+            width: 30%;
+            margin: 15px 0;
+            padding: 15px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .category .item:hover {
+            transform: scale(1.05);
+        }
+
+        .item img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .item h3 {
+            font-size: 22px;
+            margin-top: 15px;
+            color: #333;
+        }
+
+        .item p {
+            font-size: 16px;
+            color: #555;
+            margin: 10px 0;
+        }
+
+        .item span {
+            font-size: 20px;
+            color: #f39c12;
+            font-weight: bold;
+        }
+
+        /* Buttons */
+        .btn {
+            padding: 10px 20px;
+            background-color: #f39c12;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 15px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #d35400;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Fashion<span>Hub</span></div>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#shop">Shop</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="shop-section container">
+        <h2>Shop Hoodies, Coats, & T-Shirts</h2>
+
+        <!-- Hoodies & Sweatshirts -->
+        <h3>Hoodies & Sweatshirts</h3>
+        <div class="category">
+            <div class="item">
+                <img src="https://i.ibb.co/wspq9xx/h.jpg" alt="Basic Hoodie">
+                <h3>Basic Hoodie</h3>
+                <p>Comfortable and stylish, this hoodie is perfect for casual outings or lounging at home.</p>
+                <span>3999/-</span>
+                <a href="basichoodie.html"><button class="btn" >Buy Now</button></a>
+            </div>
+            <div class="item">
+                <img src="https://i.ibb.co/B249hsy/images.jpg" alt="Fleece Hoodie">
+                <h3>Fleece Hoodie</h3>
+                <p>Soft fleece fabric keeps you warm and cozy, ideal for cold weather.</p>
+                <span>4999/-</span>
+                <a href="fleecehoodie.html"><button class="btn">Buy Now</button></a>
+            </div>
+            <div class="item">
+                <img src="https://i.ibb.co/HnCmFhT/graphic.jpg" alt="Graphic Hoodie">
+                <h3>Graphic Hoodie</h3>
+                <p>This hoodie comes with a bold graphic print, perfect for a stylish statement.</p>
+                <span>5990/-</span>
+                <a href="graphichoodie.html"><button class="btn">Buy Now</button></a>
+            </div>
+        </div>
+
+        <!-- Coats & Parkas -->
+        <h3>Coats & Parkas</h3>
+        <div class="category">
+            <div class="item">
+                <img src="https://i.ibb.co/sgF4c24/wwol.jpg" alt="Wool Coat">
+                <h3>Wool Coat</h3>
+                <p>Classic wool coat that pairs well with both casual and formal outfits.</p>
+                <span>1299/-</span>
+                <a href="wool.html"><button class="btn">Buy Now</button></a>
+            </div>
+            <div class="item">
+                <img src="https://i.ibb.co/bWRHvzn/download-3.jpg" alt="Puffer Parka">
+                <h3>Puffer Parka</h3>
+                <p>Stay warm and stylish with this puffer parka, perfect for harsh winters.</p>
+                <span>1699/-</span>
+                <a href="puffer.html"><button class="btn">Buy Now</button></a>
+            </div>
+            <div class="item">
+                <img src="https://i.ibb.co/16rcD9g/download-4.jpg" alt="Double-Breasted Coat">
+                <h3>Double-Breasted Coat</h3>
+                <p>Classic and sophisticated, this coat is perfect for both office and evening wear.</p>
+                <span>1499/-</span>
+                <a href="double.html"><button class="btn">Buy Now</button></a>
+            </div>
+        </div>
+
+        <!-- Tees & T-Shirts -->
+        <h3>Tees & T-Shirts</h3>
+        <div class="category">
+            <div class="item">
+                <img src="https://i.ibb.co/p3cNDtW/images-2.jpg" alt="Graphic T-Shirt">
+                <h3>Graphic T-Shirt</h3>
+                <p>A casual tee with a cool graphic design for a laid-back look.</p>
+                <span>1999/-</span>
+                <a href="grapht.html"><button class="btn">Buy Now</button></a>
+            </div>
+            <div class="item">
+                <img src="https://i.ibb.co/Yyx82G2/download-5.jpg" alt="Plain T-Shirt">
+                <h3>Plain T-Shirt</h3>
+                <p>This essential plain tee is a versatile wardrobe staple, available in various colors.</p>
+                <span>1499/-</span>
+                <a href="plain.html"><button class="btn">Buy Now</button></a>
+            </div>
+            <div class="item">
+                <img src="https://i.ibb.co/NKS3cD2/download-7.jpg" alt="V-Neck T-Shirt">
+                <h3>V-Neck T-Shirt</h3>
+                <p>Soft and breathable, this v-neck tee adds a touch of style to any casual outfit.</p>
+                <span>2299/-</span>
+                <a href="v.html"><button class="btn">Buy Now</button></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 FashionHub. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
